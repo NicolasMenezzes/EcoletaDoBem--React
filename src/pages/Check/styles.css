@@ -1,0 +1,65 @@
+   .shadow {
+    position: absolute;
+    width: 1340px;
+    height: 660px;
+    left: 0px;
+    top: 0px;
+    background: #0E0A14;
+    opacity: 0.95;
+   }
+
+   .concluido a {
+        width: 110%;
+        max-width: 360px;
+        height: 72px;
+        background: var(--primary-color);
+        border-radius: 8px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 100px;
+        box-shadow: 0 0 40px 40px #34CB79 inset, 0 0 0 0 #34CB79;
+      -webkit-transition: all 500ms ease-in-out;
+      transition: all 300ms ease-in-out;
+      color: white;
+    }
+    
+    .concluido h2{
+    
+        margin-top: 10px;
+    }
+
+   .concluido a:hover {
+        box-shadow: 0 0 10px 0 #0f43b4 inset, 0 0 10px 4px 
+      }
+    .icon svg{
+        margin-left: 15px;
+    }
+  .concluido {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top:50%;
+    left:45%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .concluido p{
+    width: 324px;
+    height: 42px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F0F0F5;
+  }
+  .concluido svg {
+    width: 53px;
+    height: 53px;
+    color: #2FB86E;
+
+  }
